@@ -1,7 +1,7 @@
 const alert=()=>{
 swal({
-  title: "Compte bloquer",
-  text: "Remplissez les conditions pour reactiver votre Compte",
+  title: "ont vous attend",
+  text: "<center><p>rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte</p></center>",
   icon: "warning",
   dangerMode: true,
 })}
