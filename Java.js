@@ -7,16 +7,6 @@ swal({
 })}
 
 
-const info=()=>{
-swal({
-  title: "ont vous attend",
-  text: "rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte",
-  icon: "info",
-  dangerMode: true,
-})}
-
-
-
 
 /*.then((willDelete) => {
   if (willDelete) {
