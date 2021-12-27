@@ -2,7 +2,7 @@ const alert=()=>{
 swal({
   title: "ont vous attend",
   text: "<center><p>rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte</p></center>",
-  icon: "warning",
+  icon: "info",
   dangerMode: true,
 })}
 
