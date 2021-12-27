@@ -1,11 +1,3 @@
-const alert3=()=>{
-swal({
-  title: "ont vous attend",
-  text: "<center><p>rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte</p></center>",
-  icon: "info",
-  dangerMode: true,
-})}
-
 const alert=()=>{
 swal({
   title: "Compte bloqué",
@@ -13,6 +5,16 @@ swal({
   icon: "warning",
   dangerMode: true,
 })}
+
+
+const info=()=>{
+swal({
+  title: "ont vous attend",
+  text: "rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte",
+  icon: "info",
+  dangerMode: true,
+})}
+
 
 
 
