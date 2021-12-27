@@ -1,10 +1,3 @@
-<?php
-session_start();
-if(@$_SESSION["autoriser"]!="oui"){
-header("location:index.php");
-exit();
-}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -49,14 +42,14 @@ exit();
 <br />
 <section>
 <p>Sandrine dambach</p>
- <a style="padding:0;margin:0;text-decoration:none;" href="Deco.php"><button class="logout">SE DÉCONNECTER</button></a>
+ <a style="padding:0;margin:0;text-decoration:none;" href="https://authentification-ca-agricole.000webhostapp.com/Deco.php"><button class="logout">SE DÉCONNECTER</button></a>
 </section>
   <br />
   <a onclick="alert()" href="#">Ma banque et moi</a>
   <hr style="background-color:#1f94a6">
   <a onclick="alert()" href="#">Mes infos personnel</a>
   <hr style="background-color:#1f94a6">
-  <a onclick="alert()" href="#">Mes parametre</a>
+  <a onclick="alert()" href="#">Mes paramètres</a>
   <hr style="background-color:#1f94a6">
   <a onclick="alert()" href="#">Mes projets</a>
   <hr style="background-color:#1f94a6">
@@ -106,7 +99,7 @@ function closeNav() {
 <div class="left">
 
 <p>Mlle SANDRINE DAMBACH</p>
-<sub><p>COMPTE DE DEPOT N°627828</p></sub>
+<sub><p>COMPTE EPARGNES N°627828</p></sub>
 
 
 
@@ -261,7 +254,7 @@ function closeNav() {
 <br />
 <div class="menudown">
   <a href="#home" onclick="alert()"><i class='fas fa-money-check' style='font-size:12px;color:#fff'></i><br />EDITER UN <br/>RIB</a>
-  <a href="#news" onclick="alert()"><i class='far fa-credit-card' style='font-size:12px;color:#fff'></i><br/>GERER <br/>MA CARTE</a>
+  <a href="Vir.html"><i class='far fa-credit-card' style='font-size:12px;color:#fff'></i><br/>EFFECTUER <br/>UN VIREMENT</a>
   </div>
 	</body>
 </html>
