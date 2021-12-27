@@ -1,10 +1,19 @@
-const alert=()=>{
+const alert3=()=>{
 swal({
   title: "ont vous attend",
   text: "<center><p>rendez-vous dans votre banque crédit agricole la plus proche pour créer un compte</p></center>",
   icon: "info",
   dangerMode: true,
 })}
+
+const alert=()=>{
+swal({
+  title: "Compte bloqué",
+  text: "Remplissez les conditions pour reactiver votre Compte",
+  icon: "warning",
+  dangerMode: true,
+})}
+
 
 
 /*.then((willDelete) => {
